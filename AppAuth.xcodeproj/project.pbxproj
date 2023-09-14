@@ -827,6 +827,7 @@
 		60140F821DE43BAF00DA0DC3 /* OIDRegistrationRequestTests.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = OIDRegistrationRequestTests.m; sourceTree = "<group>"; };
 		60140F841DE43C8C00DA0DC3 /* OIDRegistrationResponseTests.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = OIDRegistrationResponseTests.h; sourceTree = "<group>"; };
 		60140F851DE43CC700DA0DC3 /* OIDRegistrationResponseTests.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = OIDRegistrationResponseTests.m; sourceTree = "<group>"; };
+		721FD8C02AB3525C00ED993F /* AppAuth_tvOS copy-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; name = "AppAuth_tvOS copy-Info.plist"; path = "/Users/macox/Desktop/AppAuth-iOS/AppAuth_tvOS copy-Info.plist"; sourceTree = "<absolute>"; };
 		A5EEF1FD20CF07760044F470 /* OIDTokenUtilitiesTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = OIDTokenUtilitiesTests.m; sourceTree = "<group>"; };
 		A6CEB1172007E384009D492A /* OIDEndSessionRequestTests.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = OIDEndSessionRequestTests.h; sourceTree = "<group>"; };
 		A6CEB1182007E384009D492A /* OIDEndSessionRequestTests.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = OIDEndSessionRequestTests.m; sourceTree = "<group>"; };
@@ -1052,6 +1053,7 @@
 				341741FB1C5D82D3000EF209 /* UnitTests */,
 				341741AE1C5D8243000EF209 /* Source */,
 				340E737D1C5D819B0076B1F6 /* Products */,
+				721FD8C02AB3525C00ED993F /* AppAuth_tvOS copy-Info.plist */,
 			);
 			indentWidth = 2;
 			sourceTree = "<group>";
@@ -2852,6 +2854,7 @@
 			buildSettings = {
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SKIP_INSTALL = YES;
+				SUPPORTED_PLATFORMS = "xrsimulator xros";
 			};
 			name = Debug;
 		};
@@ -2860,6 +2863,7 @@
 			buildSettings = {
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SKIP_INSTALL = YES;
+				SUPPORTED_PLATFORMS = "xrsimulator xros";
 			};
 			name = Release;
 		};
@@ -3056,8 +3060,9 @@
 				PRODUCT_BUNDLE_IDENTIFIER = "net.openid.AppAuth-iOS";
 				PRODUCT_NAME = AppAuth;
 				SKIP_INSTALL = YES;
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator xros xrsimulator";
 				SUPPORTS_MACCATALYST = YES;
-				TARGETED_DEVICE_FAMILY = "1,2";
+				TARGETED_DEVICE_FAMILY = "1,2,7";
 				VERSIONING_SYSTEM = "apple-generic";
 				VERSION_INFO_PREFIX = "";
 			};
@@ -3081,8 +3086,9 @@
 				PRODUCT_BUNDLE_IDENTIFIER = "net.openid.AppAuth-iOS";
 				PRODUCT_NAME = AppAuth;
 				SKIP_INSTALL = YES;
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator xros xrsimulator";
 				SUPPORTS_MACCATALYST = YES;
-				TARGETED_DEVICE_FAMILY = "1,2";
+				TARGETED_DEVICE_FAMILY = "1,2,7";
 				VERSIONING_SYSTEM = "apple-generic";
 				VERSION_INFO_PREFIX = "";
 			};
